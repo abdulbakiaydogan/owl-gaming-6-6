@@ -1,0 +1,848 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..lgaming 6.6/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-07-24 18:09:21] Compacting accounts database 'internal.db' ...
+[2021-07-24 18:09:31] Resources: 144 loaded, 0 failed
+[2021-07-24 18:09:31] Compacting database 'registry.db' ...
+[2021-07-24 18:09:32] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2021-07-24 18:09:32] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2021-07-24 18:09:32] Starting resources...
+[2021-07-24 18:09:32] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:32] INFO: -- MySQL Module Connection: 
+[2021-07-24 18:09:32] ERROR: mysql\mysql_external_module.lua:63: bad argument #1 to 'mysql_connect' (string expected, got boolean)
+[2021-07-24 18:09:32] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:32] ERROR: global\s_money_globals.lua:35: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:32] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:32] ERROR: global\s_money_globals.lua:46: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:32] Server minclientversion is now 1.5.8-9.20845.0
+[2021-07-24 18:09:32] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:32] ERROR: datetime\datetime_s.lua:5: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:09:32] ERROR: datetime\datetime_s.lua:5: attempt to index a boolean value
+[2021-07-24 18:09:32] ERROR: mysql\mysql.lua:49: attempt to concatenate global 'core_port' (a nil value)
+[2021-07-24 18:09:32] ERROR: cache\usernames_s.lua:187: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:32] WARNING: cache\usernames_s.lua:181: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:32] ERROR: mysql\mysql.lua:49: attempt to concatenate global 'core_port' (a nil value)
+[2021-07-24 18:09:32] ERROR: bans\ban_s.lua:654: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:32] WARNING: bans\ban_s.lua:654: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:32] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2021-07-24 18:09:32] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:32] ERROR: admin-system\Player\s_teleport.lua:24: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:33] INFO: Loaded 0 reports.
+[2021-07-24 18:09:33] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:33] ERROR: apps\app_manager_s.lua:50: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:09:33] ERROR: apps\app_manager_s.lua:51: attempt to index local 'mQuery' (a boolean value)
+[2021-07-24 18:09:33] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:33] ERROR: camera-system\s_camera_management.lua:7: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:33] WARNING: camera-system\s_camera_management.lua:2: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:33] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:33] ERROR: elevator-system\s_elevator_lift.lua:222: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:33] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:33] ERROR: elevator-system\s_elevator_lift.lua:240: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:33] INFO: elevator-system/s_elevator_lift.lua: loadAllLifts failed
+[2021-07-24 18:09:33] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:33] ERROR: factions\s_faction_system.lua:59: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:33] WARNING: factions\s_faction_system.lua:53: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:33] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:33] ERROR: factions\s_faction_system.lua:76: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:33] WARNING: factions\s_faction_system.lua:61: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:33] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:33] ERROR: factions\s_faction_system.lua:93: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:33] WARNING: factions\s_faction_system.lua:78: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:33] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:33] ERROR: factions\s_faction_admin.lua:243: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:09:33] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:33] ERROR: factions\s_faction_admin.lua:404: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:33] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:33] ERROR: factions\s_faction_admin.lua:405: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:33] INFO: [Factions] ERROR: Duty allow permissions failed.
+[2021-07-24 18:09:33] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:33] ERROR: factions\ranks\s_ranks.lua:262: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:33] WARNING: factions\ranks\s_ranks.lua:262: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:09:33] Please wait...
+[2021-07-24 18:09:33] Please wait...
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: object-system\s_objects.lua:10: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: object-system\s_objects.lua:4: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: [interior]\interior_system\s_settings.lua:10: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: [interior]\interior_load\load_s.lua:41: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: [interior]\interior_load\load_s.lua:41: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:34] WARNING: [interior]\interior_load\load_s.lua:42: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: bank\s_bank_system.lua:23: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: bank\s_atm_management.lua:93: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: item-world\s_load_items.lua:140: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: item-world\s_load_items.lua:140: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: item-world\s_load_items.lua:144: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: item-world\s_load_items.lua:144: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: item-world\s_load_items.lua:155: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: item-world\s_load_items.lua:145: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:34] INFO: item-texture: Loading textures for 0 world items
+[2021-07-24 18:09:34] INFO: item-texture: 0 clients waiting on initial sync.
+[2021-07-24 18:09:34] INFO: item-texture: 0 textured elements were added for initial sync.
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: job-system-trucker\s_truckroutes_manager.lua:54: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: job-system-trucker\s_truckroutes_manager.lua:44: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: license-system\s_gunlicensesmanager.lua:3: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: pd-system\k9dog\server.lua:27: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: pd-system\k9dog\server.lua:20: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: mdc\permissions_s.lua:47: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: mdc\permissions_s.lua:12: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: mdc\migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: mdc\mdc.lua:39: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] WARNING: mdc\mdc.lua:55: mdc-system/mdc.lua: Failed to load pilot licenses!
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: mdc\mdc.lua:58: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: mdc\mdc.lua:58: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:34] WARNING: mdc\mdc.lua:59: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:34] WARNING: mdc\mdc.lua:72: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: mdc\mdc.lua:75: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: mdc\mdc.lua:75: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:34] WARNING: mdc\mdc.lua:76: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:34] WARNING: mdc\mdc.lua:89: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: paynspray-system\s_paynspray_system.lua:64: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: paynspray-system\s_paynspray_system.lua:41: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: phone\s_public_phones.lua:5: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: phone\phone_sms_s.lua:171: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: realism\s_ck_corpses.lua:51: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: realism\s_ck_corpses.lua:96: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: npc\s_migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: npc\s_generalshop_system.lua:391: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: tag-system\s_tag_system.lua:104: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: tag-system\s_tag_system.lua:107: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: tow-system\s_tow.lua:80: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: insurance\s_main.lua:12: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: insurance\s_main.lua:22: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: gate-manager\s_gates.lua:51: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: [vehicle]\vehicle_fuel\s_fuel_peds.lua:570: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: [vehicle]\vehicle_manager\s_vehicle_manager.lua:17: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:34] ERROR: [vehicle]\vehicle_load\load_s.lua:33: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:34] WARNING: [vehicle]\vehicle_load\load_s.lua:33: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:34] WARNING: [vehicle]\vehicle_load\load_s.lua:34: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:261: bad argument #1 to 'mysql_escape_string' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:261: bad argument #1 to 'mysql_escape_string' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: call: failed to call 'mysql:escape_string' [(tail call)]
+[2021-07-24 18:09:34] ERROR: [vehicle]\carshop-system\s_shop.lua:471: attempt to concatenate a boolean value
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: [vehicle]\carradio\stations_s.lua:6: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] INFO: Server: Fetched 0 stations from db.
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: dancer-system\s_dancers.lua:25: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: payday\s_payday.lua:609: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: lottery-system\s_lottery.lua:7: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: lottery-system\s_lottery.lua:9: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: lottery-system\s_lottery.lua:18: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: lottery-system\s_lottery.lua:21: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: sfia\s_pilotmission.lua:16: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:34] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:34] ERROR: sfia\faadevice\server.lua:21: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:35] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:35] ERROR: advertisements\auction\keymaster.lua:108: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:35] ERROR: advertisements\auction\keymaster.lua:108: attempt to index a boolean value
+[2021-07-24 18:09:35] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:35] ERROR: advertisements\auction\auction_floor.lua:70: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:35] ERROR: advertisements\auction\auction_floor.lua:70: attempt to index a boolean value
+[2021-07-24 18:09:35] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:35] ERROR: texture-system\s_stream.lua:10: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:35] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:35] ERROR: ramp-system\s_ramp.lua:97: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:35] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:35] ERROR: clothes\s_clothing.lua:35: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:35] WARNING: clothes\s_clothing.lua:14: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:09:35] INFO: LeFire Script loaded ...
+[2021-07-24 18:09:35] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:35] ERROR: death\graveyard\graveyard_s.lua:8: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:35] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2021-07-24 18:09:35] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:35] ERROR: prison-system\s_prison.lua:21: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:35] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:35] ERROR: ped-system\s_peds.lua:42: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:35] INFO: loadAllPeds failed
+[2021-07-24 18:09:35] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:35] ERROR: fakevideo\s_fakevideo.lua:16: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:35] Authorized serial account protection is DISABLED. See http://mtasa.com/authserial
+[2021-07-24 18:09:35] Server started and is ready to accept connections!
+[2021-07-24 18:09:35] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-07-24 18:09:35] Type 'help' for a list of commands.
+[2021-07-24 18:09:35] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:35] ERROR: elevator-system\s_elevator_system.lua:218: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:09:38] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a nil value)
+[2021-07-24 18:09:38] ERROR: [map]\map_load\map_load_s.lua:92: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:09:38] WARNING: [map]\map_load\map_load_s.lua:92: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:09:38] WARNING: [map]\map_load\map_load_s.lua:93: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:38] WARNING: [map]\map_load\map_load_s.lua:104: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:09:39] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:09:39] ERROR: weather-system\s_weather_system.lua:58: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:09:39] INFO: [WEATHER] / Line 60 / SQL Settings for weather was not changed.
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..lgaming 6.6/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-07-24 18:09:58] Compacting accounts database 'internal.db' ...
+[2021-07-24 18:09:59] Resources: 144 loaded, 0 failed
+[2021-07-24 18:09:59] Compacting database 'registry.db' ...
+[2021-07-24 18:09:59] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2021-07-24 18:09:59] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2021-07-24 18:09:59] Starting resources...
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:00] INFO: -- MySQL Module Connection: 
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:63: bad argument #1 to 'mysql_connect' (string expected, got boolean)
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: global\s_money_globals.lua:35: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: global\s_money_globals.lua:46: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:00] Server minclientversion is now 1.5.8-9.20845.0
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: datetime\datetime_s.lua:5: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:00] ERROR: datetime\datetime_s.lua:5: attempt to index a boolean value
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:49: attempt to concatenate global 'core_port' (a boolean value)
+[2021-07-24 18:10:00] ERROR: cache\usernames_s.lua:187: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:00] WARNING: cache\usernames_s.lua:181: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:49: attempt to concatenate global 'core_port' (a boolean value)
+[2021-07-24 18:10:00] ERROR: bans\ban_s.lua:654: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:00] WARNING: bans\ban_s.lua:654: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:00] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: admin-system\Player\s_teleport.lua:24: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:00] INFO: Loaded 0 reports.
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: apps\app_manager_s.lua:50: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:00] ERROR: apps\app_manager_s.lua:51: attempt to index local 'mQuery' (a boolean value)
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:00] ERROR: camera-system\s_camera_management.lua:7: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:00] WARNING: camera-system\s_camera_management.lua:2: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: elevator-system\s_elevator_lift.lua:222: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: elevator-system\s_elevator_lift.lua:240: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:00] INFO: elevator-system/s_elevator_lift.lua: loadAllLifts failed
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:00] ERROR: factions\s_faction_system.lua:59: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:00] WARNING: factions\s_faction_system.lua:53: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:00] ERROR: factions\s_faction_system.lua:76: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:00] WARNING: factions\s_faction_system.lua:61: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:00] ERROR: factions\s_faction_system.lua:93: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:00] WARNING: factions\s_faction_system.lua:78: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: factions\s_faction_admin.lua:243: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: factions\s_faction_admin.lua:404: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:00] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:00] ERROR: factions\s_faction_admin.lua:405: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:00] INFO: [Factions] ERROR: Duty allow permissions failed.
+[2021-07-24 18:10:00] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:00] ERROR: factions\ranks\s_ranks.lua:262: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:00] WARNING: factions\ranks\s_ranks.lua:262: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:10:00] Please wait...
+[2021-07-24 18:10:00] Please wait...
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: object-system\s_objects.lua:10: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: object-system\s_objects.lua:4: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: [interior]\interior_system\s_settings.lua:10: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: [interior]\interior_load\load_s.lua:41: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: [interior]\interior_load\load_s.lua:41: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:01] WARNING: [interior]\interior_load\load_s.lua:42: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: bank\s_bank_system.lua:23: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: bank\s_atm_management.lua:93: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:01] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: item-world\s_load_items.lua:140: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: item-world\s_load_items.lua:140: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: item-world\s_load_items.lua:144: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: item-world\s_load_items.lua:144: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: item-world\s_load_items.lua:155: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: item-world\s_load_items.lua:145: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:01] INFO: item-texture: Loading textures for 0 world items
+[2021-07-24 18:10:01] INFO: item-texture: 0 clients waiting on initial sync.
+[2021-07-24 18:10:01] INFO: item-texture: 0 textured elements were added for initial sync.
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: job-system-trucker\s_truckroutes_manager.lua:54: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: job-system-trucker\s_truckroutes_manager.lua:44: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: license-system\s_gunlicensesmanager.lua:3: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: pd-system\k9dog\server.lua:27: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: pd-system\k9dog\server.lua:20: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: mdc\permissions_s.lua:47: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: mdc\permissions_s.lua:12: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: mdc\migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: mdc\mdc.lua:39: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:01] WARNING: mdc\mdc.lua:55: mdc-system/mdc.lua: Failed to load pilot licenses!
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: mdc\mdc.lua:58: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: mdc\mdc.lua:58: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:01] WARNING: mdc\mdc.lua:59: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:01] WARNING: mdc\mdc.lua:72: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: mdc\mdc.lua:75: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: mdc\mdc.lua:75: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:01] WARNING: mdc\mdc.lua:76: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:01] WARNING: mdc\mdc.lua:89: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:01] ERROR: paynspray-system\s_paynspray_system.lua:64: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:01] WARNING: paynspray-system\s_paynspray_system.lua:41: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: phone\s_public_phones.lua:5: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: phone\phone_sms_s.lua:171: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: realism\s_ck_corpses.lua:51: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:01] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:01] ERROR: realism\s_ck_corpses.lua:96: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:02] ERROR: npc\s_migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: npc\s_generalshop_system.lua:391: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: tag-system\s_tag_system.lua:104: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: tag-system\s_tag_system.lua:107: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: tow-system\s_tow.lua:80: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: insurance\s_main.lua:12: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: insurance\s_main.lua:22: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: gate-manager\s_gates.lua:51: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: [vehicle]\vehicle_fuel\s_fuel_peds.lua:570: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:02] ERROR: [vehicle]\vehicle_manager\s_vehicle_manager.lua:17: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:02] ERROR: [vehicle]\vehicle_load\load_s.lua:33: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:02] WARNING: [vehicle]\vehicle_load\load_s.lua:33: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:02] WARNING: [vehicle]\vehicle_load\load_s.lua:34: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:261: bad argument #1 to 'mysql_escape_string' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:261: bad argument #1 to 'mysql_escape_string' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: call: failed to call 'mysql:escape_string' [(tail call)]
+[2021-07-24 18:10:02] ERROR: [vehicle]\carshop-system\s_shop.lua:471: attempt to concatenate a boolean value
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: [vehicle]\carradio\stations_s.lua:6: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] INFO: Server: Fetched 0 stations from db.
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: dancer-system\s_dancers.lua:25: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: payday\s_payday.lua:609: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: lottery-system\s_lottery.lua:7: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: lottery-system\s_lottery.lua:9: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: lottery-system\s_lottery.lua:18: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: lottery-system\s_lottery.lua:21: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: sfia\s_pilotmission.lua:16: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: sfia\faadevice\server.lua:21: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:02] ERROR: advertisements\auction\keymaster.lua:108: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:02] ERROR: advertisements\auction\keymaster.lua:108: attempt to index a boolean value
+[2021-07-24 18:10:02] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:02] ERROR: advertisements\auction\auction_floor.lua:70: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:02] ERROR: advertisements\auction\auction_floor.lua:70: attempt to index a boolean value
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: texture-system\s_stream.lua:10: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: ramp-system\s_ramp.lua:97: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:02] ERROR: clothes\s_clothing.lua:35: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:02] WARNING: clothes\s_clothing.lua:14: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:10:02] INFO: LeFire Script loaded ...
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: death\graveyard\graveyard_s.lua:8: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: prison-system\s_prison.lua:21: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: ped-system\s_peds.lua:42: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] INFO: loadAllPeds failed
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: fakevideo\s_fakevideo.lua:16: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:02] Authorized serial account protection is DISABLED. See http://mtasa.com/authserial
+[2021-07-24 18:10:02] Server started and is ready to accept connections!
+[2021-07-24 18:10:02] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-07-24 18:10:02] Type 'help' for a list of commands.
+[2021-07-24 18:10:02] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:02] ERROR: elevator-system\s_elevator_system.lua:218: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:05] ERROR: mysql\mysql.lua:30: attempt to concatenate global 'port' (a boolean value)
+[2021-07-24 18:10:05] ERROR: [map]\map_load\map_load_s.lua:92: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:05] WARNING: [map]\map_load\map_load_s.lua:92: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:05] WARNING: [map]\map_load\map_load_s.lua:93: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:05] WARNING: [map]\map_load\map_load_s.lua:104: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:07] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:07] ERROR: weather-system\s_weather_system.lua:58: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:07] INFO: [WEATHER] / Line 60 / SQL Settings for weather was not changed.
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..lgaming 6.6/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-07-24 18:10:23] Compacting accounts database 'internal.db' ...
+[2021-07-24 18:10:24] Resources: 144 loaded, 0 failed
+[2021-07-24 18:10:24] Compacting database 'registry.db' ...
+[2021-07-24 18:10:24] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2021-07-24 18:10:24] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2021-07-24 18:10:24] Starting resources...
+[2021-07-24 18:10:24] SCRIPT ERROR: mysql\mysql.lua:20: unexpected symbol near '='
+[2021-07-24 18:10:24] ERROR: Loading script failed: mysql\mysql.lua:20: unexpected symbol near '='
+[2021-07-24 18:10:24] INFO: -- MySQL Module Connection: 
+[2021-07-24 18:10:24] ERROR: mysql\mysql_external_module.lua:63: bad argument #1 to 'mysql_connect' (string expected, got nil)
+[2021-07-24 18:10:24] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:24] ERROR: global\s_money_globals.lua:35: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:24] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:24] ERROR: global\s_money_globals.lua:46: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:24] Server minclientversion is now 1.5.8-9.20845.0
+[2021-07-24 18:10:24] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:24] ERROR: datetime\datetime_s.lua:5: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:24] ERROR: datetime\datetime_s.lua:5: attempt to index a boolean value
+[2021-07-24 18:10:24] ERROR: cache\usernames_s.lua:187: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:24] WARNING: cache\usernames_s.lua:181: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:24] ERROR: bans\ban_s.lua:654: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:24] WARNING: bans\ban_s.lua:654: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:24] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2021-07-24 18:10:24] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:24] ERROR: admin-system\Player\s_teleport.lua:24: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:24] INFO: Loaded 0 reports.
+[2021-07-24 18:10:25] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:25] ERROR: apps\app_manager_s.lua:50: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:25] ERROR: apps\app_manager_s.lua:51: attempt to index local 'mQuery' (a boolean value)
+[2021-07-24 18:10:25] ERROR: camera-system\s_camera_management.lua:7: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:25] WARNING: camera-system\s_camera_management.lua:2: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:25] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:25] ERROR: elevator-system\s_elevator_lift.lua:222: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:25] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:25] ERROR: elevator-system\s_elevator_lift.lua:240: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:25] INFO: elevator-system/s_elevator_lift.lua: loadAllLifts failed
+[2021-07-24 18:10:25] ERROR: factions\s_faction_system.lua:59: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:25] WARNING: factions\s_faction_system.lua:53: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:25] ERROR: factions\s_faction_system.lua:76: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:25] WARNING: factions\s_faction_system.lua:61: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:25] ERROR: factions\s_faction_system.lua:93: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:25] WARNING: factions\s_faction_system.lua:78: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:25] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:25] ERROR: factions\s_faction_admin.lua:243: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:25] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:25] ERROR: factions\s_faction_admin.lua:404: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:25] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:25] ERROR: factions\s_faction_admin.lua:405: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:25] INFO: [Factions] ERROR: Duty allow permissions failed.
+[2021-07-24 18:10:25] ERROR: factions\ranks\s_ranks.lua:262: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:25] WARNING: factions\ranks\s_ranks.lua:262: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:10:25] Please wait...
+[2021-07-24 18:10:25] Please wait...
+[2021-07-24 18:10:26] ERROR: object-system\s_objects.lua:10: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: object-system\s_objects.lua:4: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:26] ERROR: mysql\migrations.lua:38: attempt to call global 'getConn' (a nil value)
+[2021-07-24 18:10:26] ERROR: [interior]\interior_system\s_settings.lua:10: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:26] ERROR: [interior]\interior_load\load_s.lua:41: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: [interior]\interior_load\load_s.lua:41: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:26] WARNING: [interior]\interior_load\load_s.lua:42: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: bank\s_bank_system.lua:23: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: bank\s_atm_management.lua:93: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2021-07-24 18:10:26] ERROR: item-world\s_load_items.lua:140: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: item-world\s_load_items.lua:140: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:26] ERROR: item-world\s_load_items.lua:144: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: item-world\s_load_items.lua:144: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:26] ERROR: item-world\s_load_items.lua:155: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: item-world\s_load_items.lua:145: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:26] INFO: item-texture: Loading textures for 0 world items
+[2021-07-24 18:10:26] INFO: item-texture: 0 clients waiting on initial sync.
+[2021-07-24 18:10:26] INFO: item-texture: 0 textured elements were added for initial sync.
+[2021-07-24 18:10:26] ERROR: job-system-trucker\s_truckroutes_manager.lua:54: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: job-system-trucker\s_truckroutes_manager.lua:44: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: license-system\s_gunlicensesmanager.lua:3: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: pd-system\k9dog\server.lua:27: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: pd-system\k9dog\server.lua:20: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:26] ERROR: mdc\permissions_s.lua:47: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: mdc\permissions_s.lua:12: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:10:26] ERROR: mysql\migrations.lua:38: attempt to call global 'getConn' (a nil value)
+[2021-07-24 18:10:26] ERROR: mdc\migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: mdc\mdc.lua:39: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] WARNING: mdc\mdc.lua:55: mdc-system/mdc.lua: Failed to load pilot licenses!
+[2021-07-24 18:10:26] ERROR: mdc\mdc.lua:58: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: mdc\mdc.lua:58: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:26] WARNING: mdc\mdc.lua:59: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:26] WARNING: mdc\mdc.lua:72: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:26] ERROR: mdc\mdc.lua:75: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: mdc\mdc.lua:75: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:26] WARNING: mdc\mdc.lua:76: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:26] WARNING: mdc\mdc.lua:89: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:26] ERROR: paynspray-system\s_paynspray_system.lua:64: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:26] WARNING: paynspray-system\s_paynspray_system.lua:41: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: phone\s_public_phones.lua:5: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: phone\phone_sms_s.lua:171: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: realism\s_ck_corpses.lua:51: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: realism\s_ck_corpses.lua:96: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\migrations.lua:38: attempt to call global 'getConn' (a nil value)
+[2021-07-24 18:10:26] ERROR: npc\s_migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: npc\s_generalshop_system.lua:391: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: tag-system\s_tag_system.lua:104: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: tag-system\s_tag_system.lua:107: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: tow-system\s_tow.lua:80: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: insurance\s_main.lua:12: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: insurance\s_main.lua:22: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: gate-manager\s_gates.lua:51: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:26] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:26] ERROR: [vehicle]\vehicle_fuel\s_fuel_peds.lua:570: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\migrations.lua:38: attempt to call global 'getConn' (a nil value)
+[2021-07-24 18:10:27] ERROR: [vehicle]\vehicle_manager\s_vehicle_manager.lua:17: call: failed to call 'mysql:createMigrations' [string "?"]
+[2021-07-24 18:10:27] ERROR: [vehicle]\vehicle_load\load_s.lua:33: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:27] WARNING: [vehicle]\vehicle_load\load_s.lua:33: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:27] WARNING: [vehicle]\vehicle_load\load_s.lua:34: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:261: bad argument #1 to 'mysql_escape_string' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:261: bad argument #1 to 'mysql_escape_string' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: call: failed to call 'mysql:escape_string' [(tail call)]
+[2021-07-24 18:10:27] ERROR: [vehicle]\carshop-system\s_shop.lua:471: attempt to concatenate a boolean value
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: [vehicle]\carradio\stations_s.lua:6: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] INFO: Server: Fetched 0 stations from db.
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: dancer-system\s_dancers.lua:25: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: payday\s_payday.lua:609: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: lottery-system\s_lottery.lua:7: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: lottery-system\s_lottery.lua:9: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: lottery-system\s_lottery.lua:18: call: failed to call 'mysql:query_fetch_assoc' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: lottery-system\s_lottery.lua:21: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: sfia\s_pilotmission.lua:16: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: sfia\faadevice\server.lua:21: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] ERROR: advertisements\auction\keymaster.lua:108: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:27] ERROR: advertisements\auction\keymaster.lua:108: attempt to index a boolean value
+[2021-07-24 18:10:27] ERROR: advertisements\auction\auction_floor.lua:70: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:27] ERROR: advertisements\auction\auction_floor.lua:70: attempt to index a boolean value
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: texture-system\s_stream.lua:10: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: ramp-system\s_ramp.lua:97: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] ERROR: clothes\s_clothing.lua:35: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:27] WARNING: clothes\s_clothing.lua:14: Bad argument @ 'dbQuery' [Expected db-connection at argument 3, got boolean]
+[2021-07-24 18:10:27] INFO: LeFire Script loaded ...
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: death\graveyard\graveyard_s.lua:8: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: prison-system\s_prison.lua:21: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: ped-system\s_peds.lua:42: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] INFO: loadAllPeds failed
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: fakevideo\s_fakevideo.lua:16: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:27] Authorized serial account protection is DISABLED. See http://mtasa.com/authserial
+[2021-07-24 18:10:27] Server started and is ready to accept connections!
+[2021-07-24 18:10:27] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-07-24 18:10:27] Type 'help' for a list of commands.
+[2021-07-24 18:10:27] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:27] ERROR: elevator-system\s_elevator_system.lua:218: call: failed to call 'mysql:query' [string "?"]
+[2021-07-24 18:10:30] ERROR: [map]\map_load\map_load_s.lua:92: call: failed to call 'mysql:getConn' [string "?"]
+[2021-07-24 18:10:30] WARNING: [map]\map_load\map_load_s.lua:92: Bad argument @ 'dbQuery' [Expected db-connection at argument 1, got boolean]
+[2021-07-24 18:10:30] WARNING: [map]\map_load\map_load_s.lua:93: Bad argument @ 'dbPoll' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:30] WARNING: [map]\map_load\map_load_s.lua:104: Bad argument @ 'dbFree' [Expected db-query at argument 1, got boolean]
+[2021-07-24 18:10:32] ERROR: mysql\mysql_external_module.lua:111: bad argument #1 to 'mysql_ping' (mysqlHandler expected, got nil)
+[2021-07-24 18:10:32] ERROR: weather-system\s_weather_system.lua:58: call: failed to call 'mysql:query_free' [string "?"]
+[2021-07-24 18:10:32] INFO: [WEATHER] / Line 60 / SQL Settings for weather was not changed.
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..lgaming 6.6/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-07-24 22:39:02] Compacting accounts database 'internal.db' ...
+[2021-07-24 22:39:10] Resources: 144 loaded, 0 failed
+[2021-07-24 22:39:10] Compacting database 'registry.db' ...
+[2021-07-24 22:39:11] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2021-07-24 22:39:11] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2021-07-24 22:39:11] Starting resources...
+[2021-07-24 22:39:11] INFO: [MYSQL] createConnection / mta / OK
+[2021-07-24 22:39:11] INFO: -- MySQL Module Connection: 
+[2021-07-24 22:39:11] INFO: -- OK
+[2021-07-24 22:39:11] Server minclientversion is now 1.5.8-9.20845.0
+[2021-07-24 22:39:11] INFO: [MYSQL] reconnectConnection / core / OK
+[2021-07-24 22:39:11] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2021-07-24 22:39:12] INFO: Loaded 0 reports.
+[2021-07-24 22:39:12] Please wait...
+[2021-07-24 22:39:12] Please wait...
+[2021-07-24 22:39:13] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2021-07-24 22:39:13] INFO: item-texture: Loading textures for 0 world items
+[2021-07-24 22:39:13] INFO: item-texture: 0 clients waiting on initial sync.
+[2021-07-24 22:39:13] INFO: item-texture: 0 textured elements were added for initial sync.
+[2021-07-24 22:39:13] INFO: Loaded 0 pilot licenses in 7ms.
+[2021-07-24 22:39:13] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2021-07-24 22:39:14] INFO: Server: Fetched 0 stations from db.
+[2021-07-24 22:39:14] INFO: Loaded 0 texture records for all interiors in 0ms
+[2021-07-24 22:39:14] INFO: LeFire Script loaded ...
+[2021-07-24 22:39:14] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2021-07-24 22:39:14] INFO: Loaded 0 animated texture records in 0ms
+[2021-07-24 22:39:14] Authorized serial account protection is DISABLED. See http://mtasa.com/authserial
+[2021-07-24 22:39:14] Server started and is ready to accept connections!
+[2021-07-24 22:39:14] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-07-24 22:39:14] Type 'help' for a list of commands.
+[2021-07-24 22:39:14] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2021-07-24 22:39:14] INFO: [TRUCKER] Refreshed 0 orders.
+[2021-07-24 22:39:14] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2021-07-24 22:40:52] CONNECT: qweqwewqe connected (IP: 192.168.1.36  Serial: 4415E7EB055A737B007298C5599C7C42  Version: 1.5.8-9.20881.1)
+[2021-07-24 22:40:53] JOIN: qweqwewqe joined the game (IP: 192.168.1.36)
+[2021-07-24 22:40:53] NICK: qweqwewqe is now known as Owl.Player.1574
+[2021-07-24 22:41:18] DIAGNOSTIC: Owl.Player.1574 #1013 HTTP server file mismatch! (weapon) Combat Shotgun.wav [Got size:55 MD5:8D90FFA9DF5843E27FB4BCEFC1253555, wanted MD5:B0AFD277BD7B151FD7DB61A90D146CB1]
+[2021-07-24 22:41:49] ERROR: account\login-panel\server.lua:385: attempt to concatenate field 'error' (a nil value)
+[2021-07-24 22:42:18] restart: Requested by Console
+[2021-07-24 22:42:18] restart: Resource restarting...
+[2021-07-24 22:42:18] Stopping account
+[2021-07-24 22:42:19] Resource 'account' changed, reloading and starting
+[2021-07-24 22:42:19] Starting account
+[2021-07-24 22:42:19] NICK: Owl.Player.1574 is now known as Owl.Player.2567
+[2021-07-24 22:42:19] account restarted successfully
+[2021-07-24 22:42:19] Stopping apps
+[2021-07-24 22:42:20] Starting apps
+[2021-07-24 22:42:20] apps restarted successfully
+[2021-07-24 22:43:21] ACL: Denied 'Owl.Player.2567' access to command 'debugscript'
+[2021-07-24 22:45:29] restart: Requested by Console
+[2021-07-24 22:45:29] restart: Resource restarting...
+[2021-07-24 22:45:29] Stopping account
+[2021-07-24 22:45:29] Resource 'account' changed, reloading and starting
+[2021-07-24 22:45:30] Starting account
+[2021-07-24 22:45:30] NICK: Owl.Player.2567 is now known as Owl.Player.7413
+[2021-07-24 22:45:30] account restarted successfully
+[2021-07-24 22:45:30] Stopping apps
+[2021-07-24 22:45:30] Starting apps
+[2021-07-24 22:45:30] apps restarted successfully
+[2021-07-24 22:48:00] NICK: Owl.Player.7413 is now known as Maykil_Ceksin
+[2021-07-24 22:48:26] INFO: [Phone] applyPhone / phonestate = 0 / action = phone_in
+[2021-07-24 22:50:08] INFO: [Phone] applyPhone / phonestate = 0 / action = phone_out
+[2021-07-24 22:51:55] WARNING: [interior]\interior_system\activity_g.lua:38: Bad argument @ 'getElementData' [Expected element at argument 1, got nil]
+[2021-07-24 22:51:55] ERROR: [interior]\interior_system\activity_g.lua:39: attempt to index local 'interiorStatus' (a boolean value)
+[2021-07-24 22:54:14] INFO: Server: Fetched 0 stations from db.
+[2021-07-24 22:56:12] New resource 'cpu' loaded
+[2021-07-24 22:56:12] Resources: 145 loaded, 0 failed
+[2021-07-24 22:56:14] start: Requested by Console
+[2021-07-24 22:56:14] Starting cpu
+[2021-07-24 22:56:14] start: Resource 'cpu' started
+[2021-07-24 22:57:41] INFO: server: bankThisWeek=0 bankPrevWeek=0
+[2021-07-24 22:59:39] INFO: [CACHE] Images / Server / addImage / Cached image - -50 in server's file system as 'images_cache/25D3122A93CE9214A42700A394ACB5F4.tex'.Total: 433KB
+[2021-07-24 22:59:50] INFO: [CACHE] Images / Server / addImage / Cached image - -50 in server's file system as 'images_cache/25D3122A93CE9214A42700A394ACB5F4.tex'.Total: 433KB
+[2021-07-24 23:00:14] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2021-07-24 23:00:14] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2021-07-24 23:00:14] INFO: ------------START UPDATING SHOP WAGES------------
+[2021-07-24 23:00:14] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2021-07-24 23:00:47] INFO: integration / createInForumID / Error response: 401
+[2021-07-24 23:00:47] INFO: integration / createInForumID / Error response: 401
+[2021-07-24 23:00:47] INFO: integration / createInForumID / Error response: 429
+[2021-07-24 23:00:51] WARNING: [interior]\interior_system\s_interior_system.lua:558: Bad argument @ 'getElementData' [Expected element at argument 1, got boolean]
+[2021-07-24 23:00:51] ERROR: [interior]\interior_system\s_interior_system.lua:558: attempt to perform arithmetic on a boolean value
+[2021-07-24 23:01:07] WARNING: [interior]\interior_system\s_interior_system.lua:558: Bad argument @ 'getElementData' [Expected element at argument 1, got boolean]
+[2021-07-24 23:01:07] ERROR: [interior]\interior_system\s_interior_system.lua:558: attempt to perform arithmetic on a boolean value
+[2021-07-24 23:01:09] WARNING: [interior]\interior_system\s_interior_system.lua:558: Bad argument @ 'getElementData' [Expected element at argument 1, got boolean]
+[2021-07-24 23:01:15] ERROR: [interior]\interior_system\s_interior_system.lua:558: attempt to perform arithmetic on a boolean value
+[2021-07-24 23:02:04] INFO: [WEAPON] Server / reload / giveWeapon: Maykil_Ceksin (21645380) AK-47, bullets=30
+[2021-07-24 23:02:15] INFO: [WEAPON] Server / reload / giveWeapon: Maykil_Ceksin (21645380) AK-47, bullets=30
+[2021-07-24 23:02:37] INFO: [WEAPON] Server / reload / giveWeapon: Maykil_Ceksin (21645380) AK-47, bullets=30
+[2021-07-24 23:04:13] INFO: MYSQL ERROR 1146: Table 'mta.characters' doesn't exist
+[2021-07-24 23:04:13] ERROR: es-system\s_es_system.lua:362: attempt to index local 'result' (a boolean value)
+[2021-07-24 23:04:14] WARNING: advertisements\auction\vehicle_auctions.lua:103: poll failed; Table 'mta.vehicle_auctions' doesn't exist
+[2021-07-24 23:04:15] ERROR: advertisements\auction\vehicle_auctions.lua:105: bad argument #1 to 'pairs' (table expected, got boolean)
+[2021-07-24 23:04:27] INFO: [WEAPON] Server / reload / giveWeapon: Maykil_Ceksin (21645380) AK-47, bullets=30
+[2021-07-24 23:04:38] QUIT: Maykil_Ceksin left the game [Quit]
+[2021-07-24 23:04:38] INFO: [Phone] Maykil_Ceksin triggered cancelPhoneCall / Quit / 0
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..lgaming 6.6/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-07-25 12:44:17] Compacting accounts database 'internal.db' ...
+[2021-07-25 12:44:22] Resources: 144 loaded, 0 failed
+[2021-07-25 12:44:22] Compacting database 'registry.db' ...
+[2021-07-25 12:44:22] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2021-07-25 12:44:22] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2021-07-25 12:44:22] Starting resources...
+[2021-07-25 12:44:22] INFO: [MYSQL] createConnection / mta / OK
+[2021-07-25 12:44:22] INFO: -- MySQL Module Connection: 
+[2021-07-25 12:44:22] INFO: -- OK
+[2021-07-25 12:44:23] Server minclientversion is now 1.5.8-9.20845.0
+[2021-07-25 12:44:23] INFO: [MYSQL] reconnectConnection / core / OK
+[2021-07-25 12:44:23] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2021-07-25 12:44:23] INFO: Loaded 0 reports.
+[2021-07-25 12:44:23] Please wait...
+[2021-07-25 12:44:23] Please wait...
+[2021-07-25 12:44:24] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2021-07-25 12:44:24] INFO: item-texture: Loading textures for 0 world items
+[2021-07-25 12:44:24] INFO: item-texture: 0 clients waiting on initial sync.
+[2021-07-25 12:44:24] INFO: item-texture: 0 textured elements were added for initial sync.
+[2021-07-25 12:44:24] INFO: Loaded 0 pilot licenses in 0ms.
+[2021-07-25 12:44:24] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2021-07-25 12:44:25] INFO: Server: Fetched 0 stations from db.
+[2021-07-25 12:44:25] INFO: Loaded 0 texture records for all interiors in 0ms
+[2021-07-25 12:44:25] INFO: LeFire Script loaded ...
+[2021-07-25 12:44:25] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2021-07-25 12:44:25] INFO: Loaded 0 animated texture records in 0ms
+[2021-07-25 12:44:25] Authorized serial account protection is DISABLED. See http://mtasa.com/authserial
+[2021-07-25 12:44:25] Server started and is ready to accept connections!
+[2021-07-25 12:44:25] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-07-25 12:44:25] Type 'help' for a list of commands.
+[2021-07-25 12:44:25] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2021-07-25 12:44:25] [ Migration ] interior_system: 1
+[2021-07-25 12:44:25] [ Migration ] interior_system: 2
+[2021-07-25 12:44:25] [ Migration ] interior_system: 3
+[2021-07-25 12:44:25] INFO: [ITEM WORLD] Loading 0.02 world items will be finished in approximately 1 minutes.
+[2021-07-25 12:44:25] INFO: [TRUCKER] Refreshed 0 orders.
+[2021-07-25 12:44:25] [ Migration ] mdc: 1
+[2021-07-25 12:44:25] [ Migration ] npc: 1
+[2021-07-25 12:44:25] [ Migration ] vehicle_manager: 1
+[2021-07-25 12:44:25] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2021-07-25 12:44:25] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'settings'
+[2021-07-25 12:44:25] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'settings'
+[2021-07-25 12:44:25] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'deletedDate'
+[2021-07-25 12:44:25] Stopping item-texture
+[2021-07-25 12:44:25] Starting item-texture
+[2021-07-25 12:44:25] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'deletedDate'
+[2021-07-25 12:44:25] INFO: item-texture: Loading textures for 1 world items
+[2021-07-25 12:44:25] INFO: item-texture: 0 clients waiting on initial sync.
+[2021-07-25 12:44:25] INFO: item-texture: 0 textured elements were added for initial sync.
+[2021-07-25 12:44:25] item-texture restarted successfully
+[2021-07-25 12:46:03] CONNECT: qweqwewqe connected (IP: 127.0.0.1  Serial: 4415E7EB055A737B007298C5599C7C42  Version: 1.5.8-9.20881.1)
+[2021-07-25 12:46:04] JOIN: qweqwewqe joined the game (IP: 127.0.0.1)
+[2021-07-25 12:46:04] NICK: qweqwewqe is now known as Owl.Player.5742
+[2021-07-25 12:46:10] DIAGNOSTIC: Owl.Player.5742 #1013 HTTP server file mismatch! (weapon) Combat Shotgun.wav [Got size:55 MD5:8D90FFA9DF5843E27FB4BCEFC1253555, wanted MD5:B0AFD277BD7B151FD7DB61A90D146CB1]
+[2021-07-25 12:47:12] NICK: Owl.Player.5742 is now known as Marcus_Salvator
+[2021-07-25 12:47:43] INFO: [Phone] Marcus_Salvator triggered cancelPhoneCall /  / 0
+[2021-07-25 12:47:43] NICK: Marcus_Salvator is now known as Owl.Player.6774
+[2021-07-25 12:47:43] INFO: [Phone] Owl.Player.6774 triggered cancelPhoneCall / Change Character / 0
+[2021-07-25 12:48:06] NICK: Owl.Player.6774 is now known as Marcus_Salvator
+[2021-07-25 12:49:10] Stopping weather
+[2021-07-25 12:49:10] Starting weather
+[2021-07-25 12:49:10] weather restarted successfully
+[2021-07-25 12:49:17] Stopping weather
+[2021-07-25 12:49:17] Starting weather
+[2021-07-25 12:49:17] weather restarted successfully
+[2021-07-25 12:49:27] QUIT: Marcus_Salvator left the game [Quit]
+[2021-07-25 12:49:27] INFO: [Phone] Marcus_Salvator triggered cancelPhoneCall / Quit / 0
+[2021-07-25 12:49:31] CONNECT: qweqwewqe connected (IP: 127.0.0.1  Serial: 4415E7EB055A737B007298C5599C7C42  Version: 1.5.8-9.20881.1)
+[2021-07-25 12:49:31] JOIN: qweqwewqe joined the game (IP: 127.0.0.1)
+[2021-07-25 12:49:31] NICK: qweqwewqe is now known as Owl.Player.1380
+[2021-07-25 12:49:35] DIAGNOSTIC: Owl.Player.1380 #1013 HTTP server file mismatch! (weapon) Combat Shotgun.wav [Got size:55 MD5:8D90FFA9DF5843E27FB4BCEFC1253555, wanted MD5:B0AFD277BD7B151FD7DB61A90D146CB1]
+[2021-07-25 12:50:18] NICK: Owl.Player.1380 is now known as Marcus_Salvator
+[2021-07-25 12:52:10] Resource 'guied' has been removed, unloading
+[2021-07-25 12:52:10] Resources: 143 loaded, 0 failed
+[2021-07-25 12:53:17] restart: Resource could not be found
+[2021-07-25 12:53:19] restart: Requested by Console
+[2021-07-25 12:53:19] restart: Resource restarting...
+[2021-07-25 12:53:19] Stopping hud
+[2021-07-25 12:53:19] Resource 'hud' changed, reloading and starting
+[2021-07-25 12:53:19] Starting hud
+[2021-07-25 12:53:19] hud restarted successfully
+[2021-07-25 12:59:25] INFO: Server: Fetched 0 stations from db.
+[2021-07-25 13:00:01] QUIT: Marcus_Salvator left the game [Timed out]
+[2021-07-25 13:00:01] INFO: [Phone] Marcus_Salvator triggered cancelPhoneCall / Timed out / 0
+[2021-07-25 13:00:25] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2021-07-25 13:00:25] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2021-07-25 13:00:25] INFO: ------------START UPDATING SHOP WAGES------------
+[2021-07-25 13:00:25] INFO: ------------UPDATED 0 SHOP WAGES------------

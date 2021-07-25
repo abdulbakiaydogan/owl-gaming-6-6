@@ -1,0 +1,12 @@
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:46:28","phones":[],"objects":[],"characters":[],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Connected from 127.0.0.1 - 4415E7EB055A737B007298C5599C7C42","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:47:12","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Created","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:47:12","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Spawned","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:47:43","phones":[],"objects":[],"characters":[0],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Went to character selection","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:48:06","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Spawned","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:49:27","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Disconnected (Quit) (Name: Marcus_Salvator)","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:50:00","phones":[],"objects":[],"characters":[],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Connected from 127.0.0.1 - 4415E7EB055A737B007298C5599C7C42","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T12:50:18","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Spawned","factions":[]}
+{"action":40,"origin":"ch51711","date":"2021-07-25T12:50:48","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[],"content":"Marcus Salvator's right leg was hit.","factions":[]}
+{"action":4,"origin":"ch51711","date":"2021-07-25T12:50:56","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[],"content":"SETHP 0","factions":[]}
+{"action":34,"origin":"ch51711","date":"2021-07-25T12:50:56","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[],"content":" died","factions":[]}
+{"action":27,"origin":"ac131902","date":"2021-07-25T13:00:01","phones":[],"objects":[],"characters":[51711],"vehicles":[],"interiors":[],"accounts":[131902],"content":"Disconnected (Timed out) (Name: Marcus_Salvator)","factions":[]}
